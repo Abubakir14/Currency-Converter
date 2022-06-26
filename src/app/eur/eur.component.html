@@ -1,0 +1,9 @@
+<div class="header">
+    <div class="update">
+        <div class="curs" (click)="curses()">Курс EUR</div>
+        <img src="{{ imgUrl }}" (click)="curses()" class="img"/>
+    </div>
+    <div class="eur" *ngIf="response">
+        {{ this.response.Valute.EUR.Value.toFixed(2) }}€
+    </div>
+</div>

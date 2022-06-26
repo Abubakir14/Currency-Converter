@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="select">
+        <select  (change)="CurrencyHandler($event)">
+            <option *ngFor="let emp of employee" [value]="emp.Id">{{emp.Name}}</option>
+        </select>
+        <input type="number" [(ngModel)]="FirstInput"  (input)="inputFirstHandler($event)"/>
+    </div>
+    <div class="select">
+        <select  (change)="CurrenCyHandler($event)">
+            <option *ngFor="let emp of employ" [value]="emp.Id">{{emp.Name}}</option>
+        </select>
+        <input type="number" [(ngModel)]="SecondInput"  (input)="inputSecondHandler($event)"/>
+    </div>
+</div>
+<!-- (change)="EmpFirstIdHandler($event)"  -->

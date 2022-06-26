@@ -1,0 +1,30 @@
+.header {
+    padding: 10px;
+    border: 2px solid #e0e1e5;
+    border-radius: 5px;
+}
+
+.update{
+    display: flex;
+}
+.uah{
+    color: rgb(231, 212, 40);
+    font-size: 50px;
+}
+
+.curs {
+    color: black;
+    font-size: 20px;
+}
+
+@keyframes spin {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+  animation: spin 5s linear 0s infinite;
+}

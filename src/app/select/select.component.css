@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+}
